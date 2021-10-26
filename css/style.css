@@ -72,7 +72,7 @@ body{
     top:4rem;
 }
 
-nav ul{
+.navbar ul{
     background-color: #E9E9E9;
     width: 600px;
     margin-top: 0;
@@ -85,7 +85,7 @@ nav ul{
     right: 0;
 }
 
-nav a{
+.navbar a{
     padding: 1rem;
     display:block;
     border: solid black;
@@ -159,13 +159,14 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
     
     
   }
 
   .button{
     background-color: #4FB2D4;
-    font-size: 15px;
+    font-size: 25px;
     display: inline-block;
     position: relative;
     top:0rem;
@@ -175,6 +176,8 @@ nav a{
     border: white 1px solid;
     margin-top: 40px;
     align-items: center;
+    border-radius: 5% 5% 5% 5%;
+    letter-spacing: 2px;
     
     animation-name: button;
     animation-duration: 2s;
@@ -196,7 +199,9 @@ nav a{
 }
 
 .work{
-    background-color: #D1EFF7;
+    background-color: #E9E9E9;
+    border: solid #E9E9E9;
+
 }
 
 .work h1{
@@ -214,6 +219,8 @@ nav a{
 }
 
 .container2{
+    padding-top: 0;
+    background-color: #E9E9E9;
     display: grid;
     grid-gap: 1rem;
     padding: 3rem;
@@ -226,6 +233,42 @@ nav a{
     width:100%;
     height:100;
 }
+
+footer{
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #4FB2D4;
+}
+
+footer{
+    color: white;
+    font-weight: bold;
+}
+
+.navcontainer{
+    
+
+}
+
+.ulfooter{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+}
+
+.ulfooter li{
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.ulfooter a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
 
 
 
