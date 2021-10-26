@@ -9,8 +9,17 @@ body{
     /* flexbox */
 
 .container1{
+    position: fixed;
+    width: 100%;
+    top:0;
+    background-color: #D1EFF7;
     padding-left: 1rem;
     display: flex;
+    padding-bottom: 4rem;
+}
+
+.container1 h2{
+    position: fixed;
 }
 
 .language{
@@ -59,18 +68,17 @@ body{
 
 .navbar{
     position: fixed;
-    right: -600px;
+    right: -700px;
+    top:4rem;
 }
 
 nav ul{
+    background-color: #E9E9E9;
     width: 600px;
     margin-top: 0;
     margin-bottom: 0;
     list-style:none;
     text-align: center;
-    
-
-  
 }
 
 .change{
@@ -85,10 +93,107 @@ nav a{
     color: black;
 }
 
+.social{
+   display: flex;
+   position: fixed;
+   top: 0.75rem;
+   right: 11rem;
+}
 
-  
+.fa {
+    padding: 8px;
+    font-size: 5px;
+    width: 520px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    width: 15px;
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+    
+}
+
+.fa-instagram {
+    width: 15px;
+    background: #125688;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-linkedin {
+    width: 15px;
+    background: #007bb5;
+    color: white;
+    border-radius: 50%;
+  }
+
+  .presentation {
+    
+  }
+
+  .presentation h1{
+    padding-top: 6rem;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .presentation p{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 
 
+  .contbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .button{
+    background-color: #4FB2D4;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    top:0rem;
+    color:white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: white 1px solid;
+    margin-top: 40px;
+    align-items: center;
+    
+    animation-name: button;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+
+    transition-property: button;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.button:hover{
+    transform: scale(1);
+    border-radius: 10% 10% 10% 10%;
+    background: #4FB2D4;
+    color: white;
+    font-weight: bold;
+}
 
 
 
