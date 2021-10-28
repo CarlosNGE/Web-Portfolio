@@ -55,6 +55,81 @@ body{
     text-decoration: none;
 }
 
+.work{
+    background-color: white;
+    border: solid #E9E9E9;
+
+}
+
+.work h1{
+    padding-top: 3rem;
+    font-size: 40px;
+    text-align: center;
+}
+
+.work p{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.container2{
+    background-color: #E9E9E9;
+    text-align: center;
+    padding: 7rem;
+    display: grid;
+    grid-gap: 4rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+}
+
+
+
+.a {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-bottom: 2rem;
+}
+
+.b{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-bottom: 2rem;
+}
+
+.c{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-bottom: 2rem;
+}
+
+.d{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-bottom: 2rem;
+}
+
+.e{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding-bottom: 2rem;
+}
+
+.f{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    padding-bottom: 2rem;
+}
+
+
+
+.container2 img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
 
 
 
@@ -300,6 +375,82 @@ footer{
         border-radius: 50%;
     }
 
+    .work{
+        background-color: white;
+        border: solid #E9E9E9;
+
+    }
+
+    .work h1{
+        padding-top: 3rem;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .work p{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .container2{
+        background-color: #E9E9E9;
+        text-align: center;
+        display: grid;
+        grid-gap: 2rem;
+        padding: 2rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px 300px;
+    
+    }
+
+    
+
+    .a {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding-bottom: 2rem;
+    }
+
+    .b{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding-bottom: 2rem;
+    }
+
+    .c{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding-bottom: 2rem;
+    }
+    
+    .d{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding-bottom: 2rem;
+    }
+    
+    .e{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        padding-bottom: 3rem;
+    }
+    
+    .f{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        padding-bottom: 3rem;
+    }
+    
+    
+
+    .container2 img{
+        object-fit:cover;
+        width:100%;
+        height:100%;
+    }
 
 
 
