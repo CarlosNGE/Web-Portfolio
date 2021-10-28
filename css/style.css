@@ -1,3 +1,118 @@
+<<<<<<< HEAD
+=======
+body{
+    margin:0;
+}
+
+
+.container1{
+    display: flex;
+}
+
+.container1 h2{
+    position: absolute;
+    left: 2rem;
+}   
+
+.language{
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+   
+}
+
+.navbar{
+    position: absolute;
+    top:-1.5rem;
+    right: 15rem;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+}
+
+.navbar li{
+    padding: 2rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    list-style:none;
+    color:black;
+}
+    
+
+
+.language a{
+    text-decoration: none;
+    list-style:none;
+    color:black;
+    padding: 0.25rem;
+}
+
+.presentation h1{
+    padding-top: 6rem;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .presentation p{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .social{
+    display: flex;
+    position: fixed;
+    top: 0.75rem;
+    right: 11rem;
+ }
+ 
+ .fa {
+     padding: 8px;
+     font-size: 5px;
+     width: 520px;
+     text-align: center;
+     text-decoration: none;
+     margin: 5px 2px;
+     
+ }
+ 
+ .fa:hover {
+     opacity: 0.7;
+ }
+ 
+ .fa-facebook {
+     width: 15px;
+     background: #3B5998;
+     color: white;
+     border-radius: 50%;
+     
+ }
+ 
+ .fa-instagram {
+     width: 15px;
+     background: #125688;
+     color: white;
+     border-radius: 50%;
+ }
+ 
+ .fa-linkedin {
+     width: 15px;
+     background: #007bb5;
+     color: white;
+     border-radius: 50%;
+   }
+
+
+  @media all and (max-width: 600px){
+
+>>>>>>> 7a0cdbc3cb97e1cb8585609b34b958a138217e4c
 body{
     margin:0;
 }
@@ -15,11 +130,17 @@ body{
 
 .language{
     position: fixed;
+<<<<<<< HEAD
     right: 2rem;
     top: 1.5rem;
     display: flex;
     
    
+=======
+    right: 6rem;
+    padding-left: 15rem;
+    padding-top: -1rem;
+>>>>>>> 7a0cdbc3cb97e1cb8585609b34b958a138217e4c
 }
 
 .language a{
@@ -36,7 +157,14 @@ body{
 }
 
 .navbar ul{
+<<<<<<< HEAD
     display: flex;
+=======
+    background-color: #E9E9E9;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+>>>>>>> 7a0cdbc3cb97e1cb8585609b34b958a138217e4c
     list-style:none;
     margin: 0;
     padding-left: 3rem;
@@ -51,7 +179,13 @@ body{
 }
 
 .navbar a{
+<<<<<<< HEAD
     color:black;
+=======
+    padding: 1rem;
+    display:block;
+    border: solid black;
+>>>>>>> 7a0cdbc3cb97e1cb8585609b34b958a138217e4c
     text-decoration: none;
 }
     
@@ -86,6 +220,7 @@ body{
 
   .social{
     justify-content: center;
+<<<<<<< HEAD
     display: flex;
     top: 0.75rem;
     right: 11rem;
@@ -128,16 +263,30 @@ body{
    }
 
 .button{
+=======
+    align-items: center;
+    padding-bottom: 3rem;
+    
+    
+  }
+
+  .button{
+>>>>>>> 7a0cdbc3cb97e1cb8585609b34b958a138217e4c
     background-color: #4FB2D4;
-    font-size: 15px;
+    font-size: 25px;
     display: inline-block;
     color:white;
     text-decoration: none;
     padding: 1rem 2rem;
     border: white 1px solid;
+<<<<<<< HEAD
     margin: 0 auto;
     
   
+=======
+    margin-top: 40px;
+    align-items: center;
+>>>>>>> 7a0cdbc3cb97e1cb8585609b34b958a138217e4c
     border-radius: 5% 5% 5% 5%;
     letter-spacing: 2px;
     
@@ -243,6 +392,10 @@ section{
 .work{
     background-color: #E9E9E9;
     border: solid #E9E9E9;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7a0cdbc3cb97e1cb8585609b34b958a138217e4c
 }
 
 .work h1{
@@ -259,11 +412,20 @@ section{
     padding-right: 10rem;
 }
 
+<<<<<<< HEAD
 footer{
     padding-top: 1rem;
     margin-bottom: 0;
     padding-bottom: 0;
     border-color: #4FB2D4;
+=======
+.container2{
+    padding-top: 0;
+    background-color: #E9E9E9;
+    display: grid;
+    grid-gap: 1rem;
+    padding: 3rem;
+>>>>>>> 7a0cdbc3cb97e1cb8585609b34b958a138217e4c
     text-align: center;
     background-color: #4FB2D4;
     color: white;
@@ -278,11 +440,48 @@ footer{
     justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+footer{
+    padding-top: 1rem;
+    text-align: center;
+    background-color: #4FB2D4;
+}
+
+footer{
+    color: white;
+    font-weight: bold;
+}
+
+.navcontainer{
+    
+
+}
+
+.ulfooter{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+}
+
+>>>>>>> 7a0cdbc3cb97e1cb8585609b34b958a138217e4c
 .ulfooter li{
     text-align: center;
     padding: 1rem;
     
 }
+<<<<<<< HEAD
+=======
+
+.ulfooter a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+>>>>>>> 7a0cdbc3cb97e1cb8585609b34b958a138217e4c
 
 .ulfooter a{
     text-decoration: none;
@@ -466,7 +665,7 @@ footer{
     }
 
     .presentation img{
-        
+
         object-fit:cover;
         width:100%;
         height:100;
