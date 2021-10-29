@@ -446,9 +446,17 @@ footer{
         
     }
 
+    .grid1 img{
+        object-fit:cover;
+        width:100%;
+        height:100;
+    }
+
     .presentation {
         margin: 0;
         padding: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .presentation h1{
